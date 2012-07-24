@@ -24,7 +24,8 @@ body{ font-family:Arial, Helvetica, sans-serif; color:#525252; font-size:100.1%;
 
 /*     Content
 -------------------------------------------------------------------*/
-#content{ position:relative; top:-47px; left:0; z-index:0; background:url(../images/body.png) no-repeat center bottom; overflow:hidden; padding:0 0 140px 0; margin:0 0 -47px 0;}
+#content{ position:relative; top:-47px; left:0; z-index:0;
+    overflow:hidden; padding:0 0 80px 0; margin:0 0 -47px 0;}
 /*     Content-inner
 -----------------------------------------*/
 .content-inner{ float:left; width:605px;}
@@ -94,8 +95,8 @@ body{ font-family:Arial, Helvetica, sans-serif; color:#525252; font-size:100.1%;
 
 /*     Footer
 -------------------------------------------------------------------*/
-#footer{ height:113px; background:url(../images/footer.png) repeat-x; overflow:hidden; position:relative;}
-  .f-logo{ display:block; position:absolute; width:91px; height:86px; background:url(../images/logo_f.png); top:5px; left:123px; }
+#footer{ height:113px; background:url(../images/footer.png) repeat-x; overflow:hidden; position:relative; padding-top: 63px;}
+  .f-logo{ display:block; position:absolute; width:91px; height:86px; background:url(../images/logo_f.png); top:68px; left:123px; }
   #footer ul{ list-style:none; padding:23px 0 0 216px; float:left;}
   	#footer li{ float:left; font-size:11px; color:#000; margin:0 17px 0 0;}
 	#footer li a{ font-size:11px; color:#000; text-decoration:none}
@@ -113,7 +114,7 @@ body{ font-family:Arial, Helvetica, sans-serif; color:#525252; font-size:100.1%;
 
 /*     Home
 -------------------------------------------------------------------*/
-.main-banner{ width:605px; height:250px; background:url(../images/main_image.jpg) no-repeat;}
+.main-banner{ width:605px; height:250px; background:url(../images/main_image.jpg) no-repeat left 35px;}
 	.catalog { padding:26px 0 0 0;}
 		.catalog div{ float:left; width:175px; margin:12px 25px 0 0;  background-position: center top; background-repeat:no-repeat;}
 		.catalog a { display:block; line-height:18px; text-decoration:none; font-size:14px; color:#525252; text-transform:uppercase; text-align:center;}
